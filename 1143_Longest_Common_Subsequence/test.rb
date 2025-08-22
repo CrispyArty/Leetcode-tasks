@@ -59,3 +59,11 @@ text2 = "cgch"
 p longest_common_subsequence(text1, text2)
 # hcbggcrc
 
+
+str1 = "bbbaaaba"
+str2 = "bbababbb"
+p longest_common_subsequence(str1, str2)
+# "bbbaaaba" - bbbab = aaa
+# "bbababbb" - bbbab = abb
+
+
